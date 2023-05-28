@@ -941,11 +941,10 @@ a {
     border-radius: 50px; }
     .video__video video {
       max-width: 100%;
-      max-height: auto;
       border-radius: 50px; }
     .video__video poster img {
       width: 1164px;
-      height: 640; }
+      height: 640px; }
 
 .video__icon1, .video__icon2, .video__icon3, .video__icon4, .video__icon5, .video__icon6, .video__icon7, .video__icon8 {
   position: absolute;

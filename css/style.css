@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none; }
 
 .ibg img {
+  object-fit:contain;
   width: 0;
   height: 0;
   position: absolute;
@@ -109,6 +110,7 @@ body {
   .header__logo {
     flex: 0 0 20%; }
     .header__logo img {
+      object-fit:contain;
       width: 130px; }
     .header__logo.active {
       margin: -70px 0 0 -50px;
@@ -282,6 +284,7 @@ body.lock {
       font-size: 65px;
       color: #efd0ca; }
     .footer__social img {
+      object-fit:contain;
       margin: 0 20px; }
 
 main {
@@ -349,6 +352,7 @@ a {
         justify-content: flex-end;
         margin: -50px 0 -150px 0; }
         .intro__pic img {
+          object-fit:contain;
           max-width: 100%; } }
   .intro__infoblock {
     flex: 0 1 45%;
@@ -659,6 +663,7 @@ a {
   padding: 20px 20px;
   max-width: 350px; }
 .cards__img {
+  object-fit:contain;
   display: flex;
   align-self: center;
   align-items: center;
@@ -673,6 +678,7 @@ a {
     background-color: #efd0ca;
     border-radius: 50%; }
   .cards__img img {
+    object-fit:contain;
     position: relative;
     z-index: 5; }
 .cards__txt {
@@ -735,9 +741,11 @@ a {
     justify-content: center;
     padding: 0 80px; }
     .about__pic img {
+      object-fit:contain;
       max-width: 100%; }
       @media (max-width: 991px) {
         .about__pic img {
+          object-fit:contain;
           max-width: 70%; } }
   .about__blocktext {
     flex: 0 1 45%;
@@ -817,6 +825,7 @@ a {
         justify-content: end;
         margin: -20px 0 -60px 0; }
         .about-sec__pic img {
+          object-fit:contain;
           max-width: 100%; } }
   .about-sec__blocktext {
     flex: 0 1 45%;
@@ -903,9 +912,11 @@ a {
     justify-content: center;
     padding: 0 80px; }
     .about-th__pic img {
+      object-fit:contain;
       max-width: 100%; }
       @media (max-width: 991px) {
         .about-th__pic img {
+          object-fit:contain;
           max-width: 70%; } }
   .about-th__blocktext {
     flex: 0 1 45%;
@@ -943,6 +954,7 @@ a {
       max-width: 100%;
       border-radius: 50px; }
     .video__video poster img {
+      object-fit:contain;
       width: 1164px;
       height: 640px; }
 

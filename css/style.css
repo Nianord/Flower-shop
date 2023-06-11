@@ -270,7 +270,7 @@ body.lock {
     .footer__item a {
       color: #fff; }
   .footer__social {
-    align-self: end;
+    align-self: flex-end;
     padding: 50px 150px;
     display: flex;
     align-items: center; }
@@ -346,7 +346,7 @@ a {
       .intro__pic {
         display: flex;
         flex: 1 1 55%;
-        justify-content: end;
+        justify-content: flex-end;
         margin: -50px 0 -150px 0; }
         .intro__pic img {
           max-width: 100%; } }
@@ -355,9 +355,9 @@ a {
     padding: 0 80px; }
   .intro__label {
     flex: 0 1 55%;
-    align-self: end;
+    align-self: flex-end;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     color: #828182;
     font-family: Unna;
     font-size: 22px;
@@ -1002,7 +1002,7 @@ a {
   max-height: 800px;
   position: relative;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   padding: 70px 0; }
   @media (max-width: 991px) {
